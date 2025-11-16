@@ -1,0 +1,84 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main-container {
+    /* background-image: url("./counter-backdrop.png");
+    background-size: cover; */
+    background: #907ef8;
+    padding: 5px;
+    margin: 50px auto;
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 20px 0px;
+}
+
+h2 {
+    margin: 10px auto;
+    font-size: 60px;
+    color: #907ef8;
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+
+}
+
+.main-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 85px 0px 0px 0px;
+}
+
+#increment-btn {
+    cursor: pointer;
+    margin: 2px 0px;
+    width: 150px;
+    color: #907ef8;
+    background-color: white;
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+
+#increment-btn:hover {
+    font-size: 17.5px;
+}
+
+#save-btn {
+    cursor: pointer;
+    margin: 2px 0px;
+    width: 150px;
+    color: white;
+    background-color: #fc7373;
+    padding: 8px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1.5px solid white;
+}
+
+#save-btn:hover {
+    font-size: 17.5px;
+    border: 1.5px solid #fc7373;
+}
+
+#entries-el {
+    font-size: 15px;
+    text-align: start;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
