@@ -52,7 +52,7 @@ h2 {
     font-weight: 500;
     width: 100%;
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -81,6 +81,5 @@ h2 {
     border: 1px solid;
     text-align: start;  
     white-space: normal; /* default */
-    overflow: scroll; 
 }
 
